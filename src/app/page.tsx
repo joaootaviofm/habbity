@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      
+    <div className="">
+      salve galera sadas
     </div>
   );
 }
