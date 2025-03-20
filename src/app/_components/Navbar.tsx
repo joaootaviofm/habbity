@@ -16,16 +16,16 @@ export default function Navbar() {
       </div>
       <ul className="flex items-center gap-[32px] text-[16px]">
         {navList.map((item, index) => (
-          <li key={index} className="">
+          <li key={index} className="border-b border-transparent hover:border-b-[#ECECEC] transition-all duration-300 hover:scale-105">
             <a href="">{item}</a>
           </li>
         ))}
-        <button className="text-[#0B081C] cursor-pointer bg-[#ECECEC] px-[20px] py-[8px] rounded-[50px]">
+        <button className="hover:bg-transparent hover:text-[#ECECEC] border border-transparent hover:border-[#ECECEC] transition-all duration-300 text-[#0B081C] cursor-pointer bg-[#ECECEC] px-[20px] py-[8px] rounded-[50px]">
           Download the app
         </button>
         <a
           href="#"
-          className="text-[#ECECEC] bg-transparent cursor-pointer border border-[#ECECEC] px-[20px] py-[8px] rounded-[50px]"
+          className="text-[#ECECEC] hover:text-[#0B081C] hover:bg-[#ECECEC] transition-all duration-300 bg-transparent cursor-pointer border border-[#ECECEC] px-[20px] py-[8px] rounded-[50px]"
         >
           Talk to an expert
         </a>
